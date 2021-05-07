@@ -27,12 +27,26 @@ body{
 .bodyimg{
     position: relative;
 }
-.bodyimg h3,p{
+.bodyimg p{
     position: absolute;
     font-family: fantasy;
-    color: black;
+    color:#f7f2f2;
+    font-size: 50px;
+    position: absolute;
+    top:10%; 
+    left:50%;
+    transform: translate(-50%,-50%);
 }
-
+.bodyimg h3{
+    color:#f7f2f2; 
+    font-family: fantasy; 
+    font-size: 30px;
+    width: 1600px; 
+    position: absolute; 
+    top:40%; 
+    left:45%;
+    transform: translate(-40%, -40%);
+}
 
 .grid{
     justify-content: space-evenly;
